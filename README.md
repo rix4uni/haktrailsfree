@@ -2,6 +2,7 @@
 
 Free securitytrails apikey only gives 2k subdomains, you can get 10k subdomains using your cookies.
 Steps to Collect cookie:
+- Note: `you must logged in`
 1. Visit: `https://securitytrails.com/list/apex_domain/krazeplanet.com?page=1`
 2. In Network tab request `Copy as cURL (bash)`
 <img width="1431" height="720" alt="image" src="https://github.com/user-attachments/assets/3ae73954-0901-47be-a479-d202b0016a0d" />
