@@ -1,6 +1,10 @@
 ## haktrailsfree
 
-Free securitytrails apikey only gives 2k subdomains, you can get 10k subdomains using your cookies, Collect cookie in `https://securitytrails.com/list/apex_domain/google.com`
+Free securitytrails apikey only gives 2k subdomains, you can get 10k subdomains using your cookies.
+Steps to Collect cookie:
+1. Visit: `https://securitytrails.com/list/apex_domain/krazeplanet.com?page=1`
+2. In Network tab request `Copy as cURL (bash)`
+3. Paste complete cookie in cookie.txt, that's it you're done
 
 ## Installation
 ```
@@ -9,9 +13,9 @@ go install github.com/rix4uni/haktrailsfree@latest
 
 ## Download prebuilt binaries
 ```
-wget https://github.com/rix4uni/haktrailsfree/releases/download/v0.0.1/haktrailsfree-linux-amd64-0.0.1.tgz
-tar -xvzf haktrailsfree-linux-amd64-0.0.1.tgz
-rm -rf haktrailsfree-linux-amd64-0.0.1.tgz
+wget https://github.com/rix4uni/haktrailsfree/releases/download/v0.0.2/haktrailsfree-linux-amd64-0.0.2.tgz
+tar -xvzf haktrailsfree-linux-amd64-0.0.2.tgz
+rm -rf haktrailsfree-linux-amd64-0.0.2.tgz
 mv haktrailsfree ~/go/bin/haktrailsfree
 ```
 Or download [binary release](https://github.com/rix4uni/haktrailsfree/releases) for your platform.
@@ -25,23 +29,19 @@ cd haktrailsfree; go install
 ## Usage
 ```
 Usage of haktrailsfree:
-  -H string
-        User-Agent header (default "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
-  -cf string
-        Path to cookie file (default: ~/.config/haktrailsfree/cookie.txt or ./cookie.txt)
-  -delay int
-        Delay between requests in seconds (not recommended to lower delay) (default 3)
-  -silent
-        Silent mode.
-  -version
-        Print the version of the tool and exit.
+  -c, --cookiefile string   File containing curl command with cookies (default "cookie.txt")
+  -d, --domain string       Single domain to process
+  -l, --list string         File containing list of domains
+      --silent              Silent mode.
+      --verbose             Enable verbose output for debugging purposes.
+      --version             Print the version of the tool and exit.
 ```
 
 ## Output Examples
 
 Single URL:
 ```
-echo "google.com" | haktrailsfree
+echo "krazeplanet.com" | haktrailsfree
 ```
 
 Multiple URLs:
