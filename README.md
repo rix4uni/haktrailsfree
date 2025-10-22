@@ -8,6 +8,9 @@ Steps to Collect cookie:
 <img width="1431" height="720" alt="image" src="https://github.com/user-attachments/assets/3ae73954-0901-47be-a479-d202b0016a0d" />
 4. Paste complete cookie in cookie.txt, that's it you're done
 
+## Demo
+https://youtu.be/-hcMPTNE2ko
+
 ## Installation
 ```
 go install github.com/rix4uni/haktrailsfree@latest
