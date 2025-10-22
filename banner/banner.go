@@ -5,7 +5,7 @@ import (
 )
 
 // prints the version message
-const version = "v0.0.1"
+const version = "v0.0.2"
 
 func PrintVersion() {
 	fmt.Printf("Current haktrailsfree version %s\n", version)
