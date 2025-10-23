@@ -8,8 +8,9 @@ Steps to Collect cookie:
 <img width="1431" height="720" alt="image" src="https://github.com/user-attachments/assets/3ae73954-0901-47be-a479-d202b0016a0d" />
 4. Paste complete cookie in cookie.txt, that's it you're done
 
-## Demo
-https://youtu.be/-hcMPTNE2ko
+## Video Demo
+[![Get 10k subdomains from securitytrails using cookie without apikey:](https://img.youtube.com/vi/-hcMPTNE2ko/maxresdefault.jpg)](https://youtu.be/-hcMPTNE2ko)
+`Important:` https://www.linkedin.com/feed/update/urn:li:ugcPost:7386938429680517121/
 
 ## Installation
 ```
